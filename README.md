@@ -6,6 +6,16 @@ To be honest, back-propagation is still the winning choice here. This is just a 
 
 Please be noted, for large dimension of data (eq: mnist/cifar-10), back-progapation wins the competition by tenfolds. That is why for this project I chose to use Iris dataset, as it is small enough for me to conduct an experiment.
 
-# Screenshot
+## How to run?
+
+1) Install dependencies
+
+`pip install -U scikit-learn numpy pandas`
+
+2) Run the project
+
+`python neural-net-ga.py`
+
+## Screenshot
 
 ![Training Image](image.png)
