@@ -137,7 +137,7 @@ class NNGeneticAlgo:
         for _ in range(self.nets[0].bias_nitem):
             # get some random points
             layer, point = self.get_random_point('bias')
-            # replace genetic (weight) with mother's value
+            # replace genetic (bias) with mother's value
             if random.uniform(0,1) < self.crossover_rate:
                 nn.biases[layer][point] = mother.biases[layer][point]
 
