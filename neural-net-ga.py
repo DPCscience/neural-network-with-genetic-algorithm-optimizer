@@ -85,6 +85,7 @@ class NNGeneticAlgo:
         net_size = Size of neural network for population members
         mutation_rate = probability of mutating all bias & weight inside our network
         crossover_rate = probability of cross-overing all bias & weight inside out network
+        retain_rate = How many to retain our population for the best ones
         X = our data to test accuracy
         y = our data-label to test accuracy
         '''
